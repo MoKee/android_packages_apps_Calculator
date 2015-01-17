@@ -19,6 +19,7 @@
 
     <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/calculator_accent_color</item>
+        <item name="android:navigationBarColor">@color/calculator_accent_color</item>
         <item name="android:windowContentOverlay">@null</item>
     </style>
 

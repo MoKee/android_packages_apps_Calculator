@@ -305,6 +305,7 @@ public class Calculator extends Activity
                 mResultEditText.setTextColor(errorColor);
                 if (android.os.Build.VERSION.SDK_INT >= 21) {
                     getWindow().setStatusBarColor(errorColor);
+                    getWindow().setNavigationBarColor(errorColor);
                 }
             } else {
                 mFormulaEditText.setTextColor(
@@ -313,6 +314,8 @@ public class Calculator extends Activity
                         getResources().getColor(R.color.display_result_text_color));
                 if (android.os.Build.VERSION.SDK_INT >= 21) {
                     getWindow().setStatusBarColor(
+                            getResources().getColor(R.color.calculator_accent_color));
+                    getWindow().setNavigationBarColor(
                             getResources().getColor(R.color.calculator_accent_color));
                 }
             }
