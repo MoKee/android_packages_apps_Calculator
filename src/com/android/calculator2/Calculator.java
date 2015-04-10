@@ -345,6 +345,7 @@ public class Calculator extends Activity
     }
 
     public void onButtonClick(View view) {
+        mCurrentButton = view;
         switch (view.getId()) {
             case R.id.eq:
                 onEquals();
