@@ -27,6 +27,7 @@
   <string name="mod">mod</string>
   <string name="text_copied_toast">Tekst kopeeritud.</string>
   <string name="copy">Kopeeri \'%s\'</string>
+  <string name="remove_from_history">Eemalda ajaloost</string>
   <string name="det">det</string>
   <string name="solve">Lahenda</string>
   <string name="plus_row">+Rida</string>
